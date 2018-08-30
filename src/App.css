@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  align-items: right;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 15px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+.MuiExpansionPanelDetails-root-89 {
+    display: initial;
+    padding: 8px 24px 24px;
+}
+.App-intro {
+  font-size: large;
+}
+.App-button{
+  background-color: 'green';
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.axis {
+	font: 10px sans-serif;
+}
+.bar {
+  fill: steelblue;
+    }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 80px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.line {
+  fill: none;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+.ReactTable .rt-tr .action {
+	transition: all .2s ease;
+	text-align: center;
+  /* display: initial!important; */
+
+	/* transform: scale(0); */
+}
+/* .ReactTable .rt-tr:hover .action {
+	transform: scale(2)
+} */
+
+.ReactTable .rt-tr:hover .rt-td {
+	background: lightblue
+}
+/* .-striped{
+  background:#D5DBDB;
+
+} */
+.ReactTable .-pagination div {
+    margin-right: 30px;
+}
+.hover-line {
+  stroke: #6F257F];
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+/* .rt-tr-group .rt-tr[role="row"] {
+
+      background-image: url('./pexels-photo-305821.jpg');
+      background-size: 'contain';
+      background-position: 'center';
+      background-repeat: 'no-repeat';
+      color:'white';
+} */
